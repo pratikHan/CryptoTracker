@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3D68EC2C14E33100D62C05 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D68EB2C14E33100D62C05 /* UIApplication.swift */; };
 		DB4BA2562C081B25004CD6F5 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA2552C081B25004CD6F5 /* Double.swift */; };
 		DBA498232C0281030082FBC1 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA498222C0281030082FBC1 /* SwiftfulCryptoApp.swift */; };
 		DBA498252C0281030082FBC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA498242C0281030082FBC1 /* ContentView.swift */; };
@@ -26,9 +27,11 @@
 		DBB050232C0EB4A500C914F3 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB050222C0EB4A500C914F3 /* CoinImageService.swift */; };
 		DBB050272C0EB73300C914F3 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB050262C0EB73300C914F3 /* CoinImageViewModel.swift */; };
 		DBB050292C1153B300C914F3 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB050282C1153B300C914F3 /* LocalFileManager.swift */; };
+		DBB0502B2C116A7600C914F3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0502A2C116A7600C914F3 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB3D68EB2C14E33100D62C05 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		DB4BA2552C081B25004CD6F5 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		DBA4981F2C0281030082FBC1 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA498222C0281030082FBC1 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		DBB050222C0EB4A500C914F3 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		DBB050262C0EB73300C914F3 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		DBB050282C1153B300C914F3 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		DBB0502A2C116A7600C914F3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				DBA498332C028B510082FBC1 /* Color.swift */,
 				DBA498452C050ED20082FBC1 /* PreviewProvider.swift */,
 				DB4BA2552C081B25004CD6F5 /* Double.swift */,
+				DB3D68EB2C14E33100D62C05 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				DBB050252C0EB70F00C914F3 /* CircleButton */,
 				DBB050242C0EB70200C914F3 /* CoinImage */,
+				DBB0502A2C116A7600C914F3 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -278,8 +284,10 @@
 				DBA498252C0281030082FBC1 /* ContentView.swift in Sources */,
 				DBB050212C0EB2D800C914F3 /* CoinImageView.swift in Sources */,
 				DBA4983B2C039CBB0082FBC1 /* HomeView.swift in Sources */,
+				DB3D68EC2C14E33100D62C05 /* UIApplication.swift in Sources */,
 				DBA498232C0281030082FBC1 /* SwiftfulCryptoApp.swift in Sources */,
 				DBA4983D2C039DFA0082FBC1 /* CircleButtonView.swift in Sources */,
+				DBB0502B2C116A7600C914F3 /* SearchBarView.swift in Sources */,
 				DBA498342C028B510082FBC1 /* Color.swift in Sources */,
 				DBA4983F2C03A2D40082FBC1 /* CircleButtonAnimationView.swift in Sources */,
 				DBB050272C0EB73300C914F3 /* CoinImageViewModel.swift in Sources */,
